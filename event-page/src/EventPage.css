@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat", Arial, sans-serif;
+    background-color: black;
+    
+}
+
+::-webkit-scrollbar {
+    display: none;  /* Hides the scrollbar */
+}
+
+
+nav {
+    background: url('./images/event navbar.png') no-repeat center center/cover;
+    padding: 5px 15px;
+    min-height: 60px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 5px 15px;
+    width: 100%;
+}
+
+.logo {
+    background: url('./images/WHITE__RNXG_LOGO[1] 2.png') no-repeat center center/contain;
+    width: 110px;
+    height: 30px;
+    margin-right: 65px;
+}
+
+.nav-links li {
+    padding: 10px 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #00bcd4;
+}
+
+.page1,
+.page2 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-size: cover;
+}
+
+.page1 {
+    background: url('./images/event group.png') no-repeat center center;
+}
+
+.page2 {
+    background: url('./images/event_page2.png') no-repeat center center;
+}
+
+.card{
+    position: relative;
+    width: 70%;
+    max-width: 317px;
+    height: 258px;
+    text-align: center;
+    color: white;
+    background: url('./images/events_card.png') no-repeat center center/cover;
+    margin-top: 21rem;
+}
+
+.card-2{
+    position: relative;
+    width: 111%;
+    max-width: 317px;
+    height: 243px;
+    text-align: center;
+    color: white;
+    background: url('./images/events_card.png') no-repeat center center/cover;
+    margin-top: 12rem;
+}
+
+.card-content,
+.card-content-2 {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-content h2,
+.card-content-2 h2 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+.card-content p,
+.card-content-2 p {
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+
+.card-buttons .btn,
+.card-buttons-2 .btn-2 {
+    background-color: #fff;
+    color: black;
+    border: none;
+    padding: 8px 15px;
+    font-size: 11px;
+    cursor: pointer;
+    margin: 8px;
+    transition: transform 0.3s ease;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.card-buttons .btn:hover,
+.card-buttons-2 .btn-2:hover {
+    transform: scale(1.1);
+}
+
+
+.overlay-image,
+.overlay-image-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay-image img{
+    object-fit: contain;
+    width: 280px;
+    margin-top: 95px;
+    margin-left: 9px;
+}
+.overlay-image-2 img{
+    object-fit: contain;
+    width: 250px;
+    margin-bottom: 200px;
+}
+.cards-container-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 50px;
+    width: 85%;
+}
+
+.card-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    min-height: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    nav {
+        padding: 10px 15px;
+        display: flex;
+        justify-content: flex-start;
+        background-image: none;
+    }
+
+    .nav-links {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+
+    .logo {
+        margin-right: 15px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .home, .events, .accommodation, .contact-us, .nav-hr {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .logo {
+        margin-right: 10px;
+    }
+
+    .nav-links a {
+        font-size: 12px;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .card-content h2,
+    .card-content-2 h2 {
+        font-size: 1.5rem;
+    }
+
+    .card-content p,
+    .card-content-2 p {
+        font-size: 0.9rem;
+    }
+}
