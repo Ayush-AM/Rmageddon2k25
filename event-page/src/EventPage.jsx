@@ -100,7 +100,7 @@ const EventPage = () => {
                     </div>
                     <div className="card-2">
                         <div className="card-content-2">
-                            <h2>Robo </h2>
+                            <h2>Robo Soccer</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum molestias hic distinctio
                                 veritatis.</p>
                             <div className="card-buttons-2">
