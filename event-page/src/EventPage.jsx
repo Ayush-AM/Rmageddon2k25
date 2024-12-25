@@ -15,10 +15,10 @@ const EventPage = () => {
         <nav>
             <ul className="nav-links">
                 <li className="logo"></li>
-                <li className="home"><a href="#">Home</a></li>
-                <li className="events middle"><a href="#">Events</a></li>
-                <li className="accommodation"><a href="#">Accommodation</a></li>
-                <li className="contact-us"><a href="#">Contact Us</a></li>
+                <li className="home"><a href="#">HOME</a></li>
+                <li className="events middle"><h1>EVENTS</h1></li>
+                <li className="accommodation"><a href="#">ACCOMMODATION</a></li>
+                <li className="contact-us"><a href="#">CONTACT US</a></li>
             </ul>
         </nav>
         <hr className="nav-hr"/>
