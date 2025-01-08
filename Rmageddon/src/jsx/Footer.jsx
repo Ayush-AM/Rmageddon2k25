@@ -16,28 +16,28 @@ const Footer = ({ className }) => {
         
         <div className="social-media" data-aos="fade-up" data-aos-delay="400">
           <a
-            href="https://www.facebook.com"
+            href="https://www.facebook.com/rnxgsggs"
             target="_blank"
             className="social-link-2"
           >
             <i className="fab fa-facebook-f"></i>
           </a>
           <a
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/team_rnxg/"
             target="_blank"
             className="social-link-2"
           >
             <i className="fab fa-instagram"></i>
           </a>
           <a
-            href="https://www.youtube.com"
+            href="https://www.youtube.com/channel/UC9fFrYx9UEpxDjS9YO6t2FA"
             target="_blank"
             className="social-link-2"
           >
             <i className="fab fa-youtube"></i>
           </a>
           <a
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/company/rnxg/"
             target="_blank"
             className="social-link-2"
           >
