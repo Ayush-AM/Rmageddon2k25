@@ -42,14 +42,18 @@
   align-items: center;
   gap: 1vw;
   font-family: "Poppins";
+  
 }
 .rmageddonTextTitle {
   font-size: 1.9vw;
   display: flex;
   justify-content: center;
   padding-top: 5rem;;
-  font-weight: 400;
-  /* text-decoration: underline; */
+  font-weight: 600;
+
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,215,0,1) 25%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .rmageddonTextInfo {
   width: 68%;
@@ -59,6 +63,7 @@
   align-items: center;
   text-align: center;
   padding-top: 5px;
+  
 }
 @media (max-width: 480px) {
   .rmageddonTitle {

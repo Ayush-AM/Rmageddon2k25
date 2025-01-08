@@ -60,7 +60,7 @@ const Footer = ({ className }) => {
         <div className="contentbelowhr" data-aos="fade-right" data-aos-delay="400">
           <div className="belowlinleftside">
             <p className="footer-copyright" >
-              Copyright Ⓒ 2023 RNXG. All Rights Reserved.
+              Copyright Ⓒ 2025 RNXG. All Rights Reserved.
             </p>
             <p className="footer-copyright" >Design and Develop by Team RnXg</p>
           </div>

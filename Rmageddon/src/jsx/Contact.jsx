@@ -137,11 +137,11 @@ const Contact = ({ className }) => {
             <h1 className="Cont_Card__name">Vaishnavi Poul</h1>
             <p>PRC Manager</p>
             <ul className="social-icons">
-              <li>
+              {/* <li>
                 <a href="https://www.instagram.com/vaishnavi" target="_blank">
                   <i className="fab fa-instagram"></i>
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="https://www.linkedin.com/in/vaishnavi-poul/" target="_blank">
                   <i className="fab fa-linkedin"></i>

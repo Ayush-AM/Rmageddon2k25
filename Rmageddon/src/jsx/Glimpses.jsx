@@ -68,7 +68,7 @@ const Glimpses = ({ className }) => {
                     </div>
                     <div className="textInfoSteps" data-aos="fade-right">
                       Upon receipt of the confirmation email, be ready to
-                      conquer the competition on Feb, 2024. We welcome you all
+                      conquer the competition on Feb, 2025. We welcome you all
                       in the cosmos of robotics and wish you to acquire the
                       crown of victory.
                     </div>
