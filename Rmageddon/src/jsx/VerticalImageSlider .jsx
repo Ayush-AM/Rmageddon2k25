@@ -8,8 +8,8 @@ import { Autoplay, Pagination } from "swiper/modules";
 import slide1 from "../images/bhai1.jpg";
 import slide2 from "../images/bhai2.jpg";
 import slide3 from "../images/bhai3.jpg";
-import slide4 from "../images/bumblebeebg.png";
-import slide5 from "../images/rmageddonlogo.png";
+import slide4 from "../images/glimpses4.JPG";
+import slide5 from "../images/glimpses5.JPG";
 
 import "../css/VerticalImageSlider.css";
 

@@ -40,5 +40,15 @@
   .dateInfo a{
     font-size: 2vw;
   }
+  .dateLocation{
+    font-size: 2vw;
+  }
     
+}
+
+@media (min-width:480px){
+
+  .dateLocation{
+    font-size: 2vw;
+  }
 }
